@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="sftp://ikea_smp@10.0.0.9:49532/home/ikea_smp/IkeaSMPs2/world/datapacks" added="2025-05-24T18:35:42.608919Z" modified="2025-05-24T18:35:42.608936Z" visited="2025-05-24T18:35:42.608927Z">
+    <title>datapacks</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2025-05-24T18:35:42.608930Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
