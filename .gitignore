@@ -1,0 +1,9 @@
+.zsh_history
+.z
+.oh-my-zsh
+
+.vscode
+
+.config/Code - OSS/*
+.config/Code - OSS/Trust Tockens
+.config/gh/*
