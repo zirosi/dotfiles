@@ -1,0 +1,34 @@
+* {
+  background-color: rgba(0,0,0,0);
+  text-color: White;
+}
+
+configuration {
+  kb-mode-next: "";
+  kb-row-up: "";
+  kb-row-down: "";
+}
+
+message, listview, mode-switcher, case-indicator, num-filtered-rows, num-rows, textbox-promt-colon {
+  enabled: false;
+}
+
+window {
+  background-color: #282C324B;
+  border-color: transparent;
+  text-color: White;
+}
+
+inputbar {
+  border: 10px;
+  border-radius: 10px;
+  border-color: rgba(0%,0%,0%,0%);
+  text-color: #ffffff;
+  enabled: true;
+  children: [ textbox-promt-colon, entry ];
+}
+
+entry, textbox {
+  text-color: #ffffff;
+}
+
