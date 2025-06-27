@@ -12,7 +12,7 @@ alias zshcon="nvim ~/dotfiles/.zshrc"
 alias hyprcon="nvim ~/dotfiles/.config/hypr/hyprland.conf"
 alias c="clear"
 
-alias rm="rm -rfi"
+alias rm="rm -rfI"
 alias r="mv -t ~/trash/"
 
 alias exa="exa -al"

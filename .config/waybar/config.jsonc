@@ -6,7 +6,7 @@
 
     "margin-top": 10,
     "margin-left": 10,
-    "margin-right": 5,
+    "margin-right": 10,
 
     "modules-left": [
         "custom/poweroff",
@@ -59,16 +59,16 @@
     "custom/poweroff": {
         "format": " ⏻ ",
 		    "tooltip": false,
-		    "on-click": "poweroff"
+		    "on-click": "systemctl poweroff"
     },
     "custom/restart": {
         "format": "  ",
         "tooltip": false,
-        "on-click": "restart"
+        "on-click": "systemctl reboot"
     },
     "custom/logout": {
         "format": " 󰍃 ",
         "tooltip": false,
-        "on-click": "logout"
+        "on-click": "hyprctl dispatch exit"
     }
 }
