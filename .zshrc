@@ -22,3 +22,7 @@ alias ..="z .."
 alias ...="z .. .."
 
 alias yaz="yayfzf"
+
+alias gita="git add ."
+alias gitc="git commit -m"
+alias gitpm="git push -u origin main"
